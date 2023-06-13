@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "main.py", "use": "@vercel/python" }
+  ],
+  "routes": [
+    { "src": "/start", "dest": "main.py" },
+    { "src": "/callback_query", "dest": "main.py" },
+    { "src": "/message", "dest": "main.py" }
+  ]
+}
+
+
