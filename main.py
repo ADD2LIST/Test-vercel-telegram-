@@ -8,18 +8,17 @@ from pyrogram import Client, filters
 
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
-load_dotenv()
+
 
 Bot = Client(
 
     "YouTube-Thumbnail-Downloader",
 
-    bot_token = os.environ.get("BOT_TOKEN"),
+    bot_token = "",
 
-    api_id = int(os.environ.get("API_ID")),
+    api_id = ,
 
-    api_hash = os.environ.get("API_HASH")
-
+    api_hash = ""
 )
 
 START_TEXT = """Hello {},
