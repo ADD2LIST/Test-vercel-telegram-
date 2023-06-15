@@ -3,3 +3,4 @@ pyrogram
 tgcrypto
 
 ytthumb
+python-telegram-bot
